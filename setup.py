@@ -25,8 +25,8 @@ install_requires = [
 ]
 
 setup(
-    name='google-endpoints',
-    version='4.8.0',
+    name='google-endpoints-tbafork',
+    version='4.9.0.dev1',
     description='Google Cloud Endpoints',
     long_description=open('README.rst').read(),
     author='Google Endpoints Authors',
@@ -41,8 +41,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
         'Programming Language :: Python :: Implementation :: CPython',
     ],
     scripts=['endpoints/endpointscfg.py'],
